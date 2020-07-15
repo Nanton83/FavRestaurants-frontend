@@ -1,7 +1,7 @@
 class RestaurantsAdapter {
     constructor() {
         this.baseUrl =
-            'http://localhost:3000/api/v1/restaurants'
+            'https://farmers-market-backend.herokuapp.com/api/v1/restaurants'
     }
 
     getRestaurants() {
